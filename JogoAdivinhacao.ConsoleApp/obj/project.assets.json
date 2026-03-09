@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\julia\\OneDrive\\Desktop\\JogoAdivinhacao\\JogoAdivinhacao.ConsoleApp\\JogoAdivinhacao.ConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\julia\\OneDrive\\Desktop\\Academia do Programador\\JogoAdivinhacao\\JogoAdivinhacao.ConsoleApp\\JogoAdivinhacao.ConsoleApp.csproj",
       "projectName": "JogoAdivinhacao.ConsoleApp",
-      "projectPath": "C:\\Users\\julia\\OneDrive\\Desktop\\JogoAdivinhacao\\JogoAdivinhacao.ConsoleApp\\JogoAdivinhacao.ConsoleApp.csproj",
+      "projectPath": "C:\\Users\\julia\\OneDrive\\Desktop\\Academia do Programador\\JogoAdivinhacao\\JogoAdivinhacao.ConsoleApp\\JogoAdivinhacao.ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\julia\\OneDrive\\Desktop\\JogoAdivinhacao\\JogoAdivinhacao.ConsoleApp\\obj\\",
+      "outputPath": "C:\\Users\\julia\\OneDrive\\Desktop\\Academia do Programador\\JogoAdivinhacao\\JogoAdivinhacao.ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config"
