@@ -16,7 +16,7 @@ using System.Security.Cryptography;
 while (true == true)
 {
 
-    Console.Clear();
+    //Console.Clear();
 
     Console.WriteLine("---------------------------------");
     Console.WriteLine("Jogo de Adivinhação");
@@ -67,7 +67,7 @@ while (true == true)
 
     for (int tentativa = 1; tentativa <= tentativasMaximas; tentativa++)
     {
-        Console.Clear();
+        //Console.Clear();
         Console.WriteLine("---------------------------------");
         Console.WriteLine($"Tentativa {tentativa} de {tentativasMaximas}.");
         Console.WriteLine("---------------------------------");
