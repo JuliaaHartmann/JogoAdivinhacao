@@ -15,9 +15,6 @@ using System.Security.Cryptography;
 
 while (true == true)
 {
-    int[] numerosDigitados = new int [100];
-    int contadorNumerosDigitados = 0;
-    int pontuacao = 1000;
 
     Console.Clear();
 
@@ -61,6 +58,10 @@ while (true == true)
             Console.ReadLine();
             continue;
     }
+
+    int[] numerosDigitados = new int [tentativasMaximas];
+    int contadorNumerosDigitados = 0;
+    int pontuacao = 1000;
 
     int numeroAleatorio = RandomNumberGenerator.GetInt32(1, numeroMaximo + 1);
 
