@@ -1,5 +1,4 @@
 ﻿// Objetivos / Passo-a-passo
-
 //v1
 // 1. Nosso jogo deve aceitar o input do jogador e exibir o valor digitado
 // 2. Nosso jogo deve gerar um número secreto aleatório
@@ -8,17 +7,17 @@
 
 // v2
 // 1. Nosso jogo deve implementar a funcionalidade de dificuldade e tentavias limitadas
-// 2. Nosso jogo deve implemente uma funcionalidade de validação de números repetidos
+// 2. Nosso jogo deve implementar uma funcionalidade de validação de números repetidos
+// 3. Nosso jogo deve implementar uma funcionalidade de pontuação
 
-using System;
-
-//Eu quero usar a biblioteca padrão do Sistema relacionada a criptografia
+using System; //Eu quero usar a biblioteca padrão do Sistema relacionada a criptografia
 using System.Security.Cryptography; 
 
 while (true == true)
 {
     int[] numerosDigitados = new int [100];
     int contadorNumerosDigitados = 0;
+    int pontuacao = 1000;
 
     Console.Clear();
 
@@ -131,14 +130,33 @@ while (true == true)
             Console.WriteLine("---------------------------------");
         }
 
+        int diferencaNumerica = Math.Abs(numeroAleatorio - numeroDigitado);
+
+        if (diferencaNumerica >= 10)
+        {
+            // pontuacao = pontuacao - 100; // explicito
+            pontuacao -= 100; // implicito
+        }
+        else if (diferencaNumerica >= 5)
+        {
+            pontuacao -= 50; 
+        }
+        else
+        {
+            pontuacao -= 20;
+        }
+
+         Console.WriteLine("Sua pontuação é: " + pontuacao);
+         Console.WriteLine("---------------------------------");
+         Console.WriteLine("Digite ENTER para continuar...");
+         Console.ReadLine();
+
         if (tentativa == tentativasMaximas)
         {
             Console.WriteLine($"Você usou todas as suas tentativas! O número era {numeroAleatorio}.");
             Console.WriteLine("---------------------------------");
             break;
         }
-
-         Console.ReadLine();
 
     }    
 
