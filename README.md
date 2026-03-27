@@ -38,12 +38,12 @@ Os jogadores interagem com o jogo por meio do console, digitando números e rece
 
 #### Clone o Repositório
 ```
-git clone https://github.com/academiadoprogramador-fullstack/jogo-de-adivinhacao-2025.git
+git clone https://github.com/JuliaaHartmann/JogoAdivinhacao.git
 ```
 
 #### Navegue até a pasta raiz da solução
 ```
-cd jogo-de-adivinhacao-2025
+cd JogoAdivinhacao
 ```
 
 #### Restaure as dependências
@@ -53,7 +53,7 @@ dotnet restore
 
 #### Navegue até a pasta do projeto
 ```
-cd JogoDaAdivinhacao.ConsoleApp
+cd JogoAdivinhacao.ConsoleApp
 ```
 
 #### Execute o projeto
